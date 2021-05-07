@@ -1,0 +1,177 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #1f42c3;
+}
+
+.navbar--links {
+  list-style: none;
+  display: table;
+}
+
+.navbar--link {
+  display: table-cell;
+  padding: 20px;
+}
+
+.navbar--link:hover {
+  background-color: #f53978;
+}
+
+.navbar--link:hover .navbar--link-item {
+  color: white;
+}
+
+.navbar--link-item {
+  text-decoration: none;
+  color: #a1a1a1;
+  letter-spacing: 0.5px;
+  margin: 0 20px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main--header, .main-card h4 {
+  font-family: "Archivo Black";
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  background-image: linear-gradient(-45deg, #1f42c3, #304cae);
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main--header {
+  color: white;
+  font-weight: 700;
+  font-size: 3.425rem;
+  width: 638px;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 145px;
+}
+
+.main--caption {
+  color: white;
+  font-weight: 300;
+  width: 749px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: italic;
+}
+
+.main .line {
+  background-color: #f53978;
+  height: 162px;
+  margin-top: 146px;
+  width: 100%;
+}
+
+.main--cards {
+  display: -ms-grid;
+  display: grid;
+  width: 1140px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin: -233px 0;
+}
+
+.main-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-card h4 {
+  color: #f53978;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: black;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.main-card button {
+  padding: 15px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 162px;
+  background-color: #2746ba;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 20px;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
