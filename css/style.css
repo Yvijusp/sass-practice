@@ -52,6 +52,10 @@
   display: flex;
 }
 
+.main--caption, .main-card p, .main-card button {
+  font-family: "Open Sans", sans-serif;
+}
+
 .main--header, .main-card h4 {
   font-family: "Archivo Black";
 }
@@ -87,7 +91,6 @@
   color: white;
   font-weight: 300;
   width: 749px;
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: normal;
   text-align: center;
@@ -141,7 +144,6 @@
 }
 
 .main-card p {
-  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   color: black;
   margin-top: 20px;
@@ -154,7 +156,6 @@
   color: white;
   border: none;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 20px;
